@@ -1,2 +1,3 @@
 # leetcode_study
-record my study on LeetCode 
+This is a record of my study on LeetCode.
+Keep my passion, improve myself!
