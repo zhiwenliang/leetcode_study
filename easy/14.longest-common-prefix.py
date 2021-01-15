@@ -7,14 +7,14 @@ class Solution:
         if not strs:
             return ""
         for i in range(len1):
-            tmp = strs[0][:i+1]
+            tmp = strs[0][: i + 1]
             for j in strs:
-                tmp1 = j[:i+1]
+                tmp1 = j[: i + 1]
                 if tmp != tmp1:
                     return strs[0][:i]
         return strs[0]
-            
-                    
+
+
 solution = Solution()
-strs = ['asfe','asdf']
+strs = ["asfe", "asdf"]
 print(solution.longestCommonPrefix(strs))

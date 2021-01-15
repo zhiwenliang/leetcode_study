@@ -18,7 +18,7 @@ class SolutionA:
         tmp = 1
         digit = 1
         while x / tmp >= 10:
-            tmp *=10
+            tmp *= 10
             digit += 1
         for i in range(digit // 2 + digit % 2):
             n1 = x // 10 ** i % 10
